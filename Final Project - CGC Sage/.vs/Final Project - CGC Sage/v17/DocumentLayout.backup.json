@@ -1,0 +1,585 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|c:\\users\\gello\\desktop\\test-bytetale\\linked cgc prog\\final project - cgc sage\\final project - cgc sage\\frmleaderbords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\frmleaderbords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\frmsettingsdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\frmsettingsdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\frmsettingsdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\frmsettingsdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\frmtypingguraddialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\frmtypingguraddialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\frmtypingguraddialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\frmtypingguraddialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\typinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\typinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\multiplierbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\multiplierbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\multiplierbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\multiplierbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\specialattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\specialattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\specialattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\specialattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\cavemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\cavemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\cavemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\cavemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\maindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\typinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\typinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|c:\\users\\gello\\desktop\\test-bytetale\\linked cgc prog\\final project - cgc sage\\final project - cgc sage\\pictureenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\pictureenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Final Project - CGC Sage||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\wordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\wordgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\usersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\usersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\usersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\usersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\createenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\createenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\frmgameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\frmgameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\frmgameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\frmgameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\frmcareerplanningguarddialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\frmcareerplanningguarddialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\careerplanresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\careerplanresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\careerplanresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\careerplanresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\highscore test (delete later(.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\highscore test (delete later(.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\final project - cgc sage\\shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|c:\\users\\gello\\desktop\\test-bytetale\\linked cgc prog\\final project - cgc sage\\final project - cgc sage\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{8324E68B-5495-4426-B7A3-0B8E7B846BE0}|Final Project - CGC Sage\\Final Project - CGC Sage.csproj|solutionrelative:final project - cgc sage\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TypingGame.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\TypingGame.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\TypingGame.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\TypingGame.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\TypingGame.cs",
+              "ViewState": "AgIAAB4BAAAAAAAAAAApwF0BAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:35:37.873Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PictureEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\PictureEnemy.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\PictureEnemy.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\PictureEnemy.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\PictureEnemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:42:47.55Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateEnemy.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\CreateEnemy.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\CreateEnemy.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\CreateEnemy.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\CreateEnemy.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:43:30.172Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Form1.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\Form1.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Form1.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\Form1.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAcwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:03:55.863Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLeaderbords.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmLeaderbords.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\frmLeaderbords.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmLeaderbords.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\frmLeaderbords.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwC4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:11:12.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmSettingsDialogue.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmSettingsDialogue.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\frmSettingsDialogue.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmSettingsDialogue.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\frmSettingsDialogue.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:17:28.15Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSettingsDialogue.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmSettingsDialogue.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\frmSettingsDialogue.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmSettingsDialogue.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\frmSettingsDialogue.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:17:28.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmTypingGuradDialogue.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmTypingGuradDialogue.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\frmTypingGuradDialogue.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmTypingGuradDialogue.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\frmTypingGuradDialogue.cs",
+              "ViewState": "AgIAAE0BAAAAAAAAAAAcwF8BAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:05:42.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmTypingGuradDialogue.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmTypingGuradDialogue.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\frmTypingGuradDialogue.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmTypingGuradDialogue.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\frmTypingGuradDialogue.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:05:41.956Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TypingGame.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\TypingGame.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\TypingGame.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\TypingGame.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\TypingGame.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:32:39.901Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MultiplierBar.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\MultiplierBar.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\MultiplierBar.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\MultiplierBar.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\MultiplierBar.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:24:59.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MultiplierBar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\MultiplierBar.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\MultiplierBar.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\MultiplierBar.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\MultiplierBar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:24:57.924Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SpecialAttack.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\SpecialAttack.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\SpecialAttack.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\SpecialAttack.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\SpecialAttack.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAYwDYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:02:38.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SpecialAttack.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\SpecialAttack.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\SpecialAttack.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\SpecialAttack.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\SpecialAttack.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:17:42.942Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "caveMenu.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\caveMenu.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\caveMenu.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\caveMenu.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\caveMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:04:41.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "caveMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\caveMenu.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\caveMenu.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\caveMenu.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\caveMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:04:40.335Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "mainDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\mainDashboard.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\mainDashboard.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\mainDashboard.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\mainDashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:55:17.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "mainDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\mainDashboard.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\mainDashboard.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\mainDashboard.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\mainDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T04:55:16.281Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WordGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\WordGenerator.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\WordGenerator.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\WordGenerator.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\WordGenerator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T10:52:34.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Final Project - CGC Sage",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Final Project - CGC Sage.csproj",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\Final Project - CGC Sage.csproj",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Final Project - CGC Sage.csproj",
+              "RelativeToolTip": "Final Project - CGC Sage\\Final Project - CGC Sage.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-25T14:07:18.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Form1.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\Form1.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Form1.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:03:55.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TitleScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\TitleScreen.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\TitleScreen.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\TitleScreen.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\TitleScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:33:37.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsersDb.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\UsersDb.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\UsersDb.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\UsersDb.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\UsersDb.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswFoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:18:08.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsersDb.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\UsersDb.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\UsersDb.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\UsersDb.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\UsersDb.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:18:07.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "signupForm.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\signupForm.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\signupForm.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\signupForm.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\signupForm.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:08:35.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "signupForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\signupForm.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\signupForm.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\signupForm.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\signupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:08:34.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmGameOver.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmGameOver.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\frmGameOver.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmGameOver.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\frmGameOver.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:59:28.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmGameOver.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmGameOver.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\frmGameOver.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmGameOver.cs [Design]",
+              "RelativeToolTip": "Final Project - CGC Sage\\frmGameOver.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:21:16.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmCareerPlanningGuardDialogue.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmCareerPlanningGuardDialogue.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\frmCareerPlanningGuardDialogue.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\frmCareerPlanningGuardDialogue.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\frmCareerPlanningGuardDialogue.cs",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAlwI0BAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:14:39.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CareerPlanResults.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\CareerPlanResults.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\CareerPlanResults.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Updated CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\CareerPlanResults.cs [Design]",
+              "RelativeToolTip": "..\\..\\Updated CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\CareerPlanResults.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:14:16.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CareerPlanResults.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\CareerPlanResults.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\CareerPlanResults.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\CareerPlanResults.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\CareerPlanResults.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAIAwwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:49:25.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HIGHSCORE TEST (DELETE LATER(.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\HIGHSCORE TEST (DELETE LATER(.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\HIGHSCORE TEST (DELETE LATER(.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\HIGHSCORE TEST (DELETE LATER(.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\HIGHSCORE TEST (DELETE LATER(.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:54:01.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Shoot.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Shoot.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\Shoot.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Updated CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Shoot.cs [Design]",
+              "RelativeToolTip": "..\\..\\Updated CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Shoot.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:02:50.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Shoot.cs",
+              "DocumentMoniker": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Shoot.cs",
+              "RelativeDocumentMoniker": "Final Project - CGC Sage\\Shoot.cs",
+              "ToolTip": "C:\\Users\\gello\\Desktop\\TEST-BYTETALE\\Linked CGC Prog\\Final Project - CGC Sage\\Final Project - CGC Sage\\Shoot.cs",
+              "RelativeToolTip": "Final Project - CGC Sage\\Shoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:02:56.076Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
