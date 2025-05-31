@@ -352,7 +352,7 @@ namespace Final_Project___CGC_Sage
                 UpdateHeartPosition();
                 return true;
             }
-            else if (keyData == Keys.Z || keyData == Keys.Enter)
+            else if (keyData == Keys.Z)
             {
                 if (currentSelection == SelectedOption.Yes)
                     HandleYesSelection();
