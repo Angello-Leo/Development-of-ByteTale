@@ -66,14 +66,15 @@
             // 
             this.lblSelect.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblSelect.AutoSize = true;
-            this.lblSelect.Font = new System.Drawing.Font("Pixel Operator HB", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSelect.Font = new System.Drawing.Font("Pixel Operator HB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSelect.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.lblSelect.Location = new System.Drawing.Point(588, 185);
             this.lblSelect.Name = "lblSelect";
-            this.lblSelect.Size = new System.Drawing.Size(441, 32);
+            this.lblSelect.Size = new System.Drawing.Size(576, 21);
             this.lblSelect.TabIndex = 6;
-            this.lblSelect.Text = "Press \"Z\" to select and continue";
+            this.lblSelect.Text = "Use \"A\" and \"D\' to move selection ress \"Z\" to select and continue";
             this.lblSelect.Visible = false;
+            this.lblSelect.Click += new System.EventHandler(this.lblSelect_Click);
             // 
             // lblGuide
             // 

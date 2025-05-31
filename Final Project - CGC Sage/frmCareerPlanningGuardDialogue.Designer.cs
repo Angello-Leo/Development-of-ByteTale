@@ -31,18 +31,18 @@
             this.components = new System.ComponentModel.Container();
             this.lblDialogue = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblSelect = new System.Windows.Forms.Label();
             this.lblGuide = new System.Windows.Forms.Label();
+            this.pictureBoxSoul = new System.Windows.Forms.PictureBox();
             this.lblOption3 = new System.Windows.Forms.Label();
             this.lblOption2 = new System.Windows.Forms.Label();
             this.lblOption1 = new System.Windows.Forms.Label();
             this.typingTimerCareer = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxSoul = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSoul)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,6 +69,18 @@
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pictureBox1.Image = global::Final_Project___CGC_Sage.Properties.Resources.GDialogue;
+            this.pictureBox1.Location = new System.Drawing.Point(39, 30);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(322, 300);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -89,13 +101,13 @@
             // 
             this.lblSelect.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblSelect.AutoSize = true;
-            this.lblSelect.Font = new System.Drawing.Font("Pixel Operator HB", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSelect.Font = new System.Drawing.Font("Pixel Operator HB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSelect.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.lblSelect.Location = new System.Drawing.Point(515, 269);
             this.lblSelect.Name = "lblSelect";
-            this.lblSelect.Size = new System.Drawing.Size(489, 35);
+            this.lblSelect.Size = new System.Drawing.Size(576, 21);
             this.lblSelect.TabIndex = 5;
-            this.lblSelect.Text = "Press \"Z\" to select and continue";
+            this.lblSelect.Text = "Use \"A\" and \"D\' to move selection ress \"Z\" to select and continue";
             this.lblSelect.Click += new System.EventHandler(this.txtSelect_Click);
             // 
             // lblGuide
@@ -111,6 +123,17 @@
             this.lblGuide.Text = "Press \"Z to continue\"";
             this.lblGuide.Visible = false;
             this.lblGuide.Click += new System.EventHandler(this.lblGuide_Click);
+            // 
+            // pictureBoxSoul
+            // 
+            this.pictureBoxSoul.Image = global::Final_Project___CGC_Sage.Properties.Resources.soul;
+            this.pictureBoxSoul.Location = new System.Drawing.Point(601, 235);
+            this.pictureBoxSoul.Name = "pictureBoxSoul";
+            this.pictureBoxSoul.Size = new System.Drawing.Size(20, 20);
+            this.pictureBoxSoul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxSoul.TabIndex = 4;
+            this.pictureBoxSoul.TabStop = false;
+            this.pictureBoxSoul.Click += new System.EventHandler(this.pictureBoxSoul_Click);
             // 
             // lblOption3
             // 
@@ -153,29 +176,6 @@
             this.typingTimerCareer.Enabled = true;
             this.typingTimerCareer.Tick += new System.EventHandler(this.typingTimerCareer_Tick);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox1.Image = global::Final_Project___CGC_Sage.Properties.Resources.GDialogue;
-            this.pictureBox1.Location = new System.Drawing.Point(39, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(322, 300);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBoxSoul
-            // 
-            this.pictureBoxSoul.Image = global::Final_Project___CGC_Sage.Properties.Resources.soul;
-            this.pictureBoxSoul.Location = new System.Drawing.Point(601, 235);
-            this.pictureBoxSoul.Name = "pictureBoxSoul";
-            this.pictureBoxSoul.Size = new System.Drawing.Size(20, 20);
-            this.pictureBoxSoul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxSoul.TabIndex = 4;
-            this.pictureBoxSoul.TabStop = false;
-            this.pictureBoxSoul.Click += new System.EventHandler(this.pictureBoxSoul_Click);
-            // 
             // frmCareerPlanningGuardDialogue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -189,9 +189,9 @@
             this.Text = "frmCareerPlanningGuardDialogue";
             this.Load += new System.EventHandler(this.frmCareerPlanningGuardDialogue_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSoul)).EndInit();
             this.ResumeLayout(false);
 

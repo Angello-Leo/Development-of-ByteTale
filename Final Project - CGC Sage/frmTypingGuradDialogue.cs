@@ -424,5 +424,10 @@ namespace Final_Project___CGC_Sage
         {
 
         }
+
+        private void lblSelect_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
