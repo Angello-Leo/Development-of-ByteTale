@@ -103,11 +103,11 @@
             this.lblSelect.AutoSize = true;
             this.lblSelect.Font = new System.Drawing.Font("Pixel Operator HB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSelect.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.lblSelect.Location = new System.Drawing.Point(515, 269);
+            this.lblSelect.Location = new System.Drawing.Point(460, 269);
             this.lblSelect.Name = "lblSelect";
-            this.lblSelect.Size = new System.Drawing.Size(576, 21);
+            this.lblSelect.Size = new System.Drawing.Size(586, 21);
             this.lblSelect.TabIndex = 5;
-            this.lblSelect.Text = "Use \"A\" and \"D\' to move selection ress \"Z\" to select and continue";
+            this.lblSelect.Text = "Use \"A\" and \"D\' to move selection press \"Z\" to select and continue";
             this.lblSelect.Click += new System.EventHandler(this.txtSelect_Click);
             // 
             // lblGuide

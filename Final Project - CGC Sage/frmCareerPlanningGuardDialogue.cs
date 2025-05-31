@@ -70,7 +70,7 @@ namespace Final_Project___CGC_Sage
                  };
             guideLines2 = new List<string>
                  {
-                    "Press \"Z\" to Select and Continue"
+                    "Use \"A\" and \"D\" to move selection ress \"Z\" to select and continue"
                  };
 
 
@@ -288,11 +288,11 @@ namespace Final_Project___CGC_Sage
             MoveSoulToCurrentOption();
 
             // Adjust guide position with same offset
-            lblGuide.Text = "Press \"Z\" to Select and Continue";
+            lblSelect.Visible = true;
             lblGuide.AutoSize = true;
             lblGuide.Top = lblOption1.Bottom + 40;
             lblGuide.Left = (this.ClientSize.Width - lblGuide.Width) / 2 + horizontalOffset;
-            lblGuide.Visible = true;
+            lblGuide.Visible = false;
 
             optionsVisible = true;
         }
@@ -312,6 +312,7 @@ namespace Final_Project___CGC_Sage
             lblOption1.Visible = false;
             lblOption2.Visible = false;
             lblOption3.Visible = false;
+            lblSelect.Visible = false;  
             pictureBoxSoul.Visible = false;
 
             optionsVisible = false;

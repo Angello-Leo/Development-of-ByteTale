@@ -286,11 +286,11 @@ namespace Final_Project___CGC_Sage
             MoveSoulToCurrentOption();
 
             // Adjust guide position with same offset
-            lblGuide.Text = "Press \"Z\" to Select and Continue";
+            lblSelect.Visible = true;
             lblGuide.AutoSize = true;
             lblGuide.Top = lblOption1.Bottom + 40;
             lblGuide.Left = (this.ClientSize.Width - lblGuide.Width) / 2 + horizontalOffset;
-            lblGuide.Visible = true;
+            lblGuide.Visible = false;
 
             optionsVisible = true;
         }
@@ -311,6 +311,7 @@ namespace Final_Project___CGC_Sage
             lblOption2.Visible = false;
             lblOption3.Visible = false;
             pictureBoxSoul.Visible = false;
+            lblSelect.Visible = false;
 
             optionsVisible = false;
 
