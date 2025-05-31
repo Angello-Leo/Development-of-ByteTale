@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8324E68B-5495-4426-B7A3-0B8E7B846BE0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Final_Project___CGC_Sage</RootNamespace>
+    <AssemblyName>Final Project - CGC Sage</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.5.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.30.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.30.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.4.7.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.9.3.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=2.2.1.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.2.2.1\lib\net472\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Asio, Version=2.2.1.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.Asio.2.2.1\lib\netstandard2.0\NAudio.Asio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.Core.2.2.1\lib\netstandard2.0\NAudio.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Midi, Version=2.2.1.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.Midi.2.2.1\lib\netstandard2.0\NAudio.Midi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Wasapi, Version=2.2.1.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.Wasapi.2.2.1\lib\netstandard2.0\NAudio.Wasapi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WinForms, Version=2.2.1.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.WinForms.2.2.1\lib\net472\NAudio.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WinMM, Version=2.2.1.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.WinMM.2.2.1\lib\netstandard2.0\NAudio.WinMM.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.AccessControl, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.4.7.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.7.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZstdSharp, Version=0.8.5.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.8.5\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CareerPlanGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CareerPlanGame.Designer.cs">
+      <DependentUpon>CareerPlanGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CareerPlanQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CareerPlanQuestions.Designer.cs">
+      <DependentUpon>CareerPlanQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CareerPlanResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CareerPlanResults.Designer.cs">
+      <DependentUpon>CareerPlanResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="caveMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="caveMenu.Designer.cs">
+      <DependentUpon>caveMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateEnemy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete.Designer.cs">
+      <DependentUpon>delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fonts.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBallDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBallDialogue.Designer.cs">
+      <DependentUpon>frmBallDialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBassDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBassDialogue.Designer.cs">
+      <DependentUpon>frmBassDialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCareerPlanningGuardDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCareerPlanningGuardDialogue.Designer.cs">
+      <DependentUpon>frmCareerPlanningGuardDialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmControllerDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmControllerDialogue.Designer.cs">
+      <DependentUpon>frmControllerDialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoggoDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoggoDialogue.Designer.cs">
+      <DependentUpon>frmDoggoDialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGameOver.Designer.cs">
+      <DependentUpon>frmGameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLeaderbords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLeaderbords.Designer.cs">
+      <DependentUpon>frmLeaderbords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReturningFromCareerPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReturningFromCareerPlan.Designer.cs">
+      <DependentUpon>frmReturningFromCareerPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSaxophoneDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaxophoneDialogue.Designer.cs">
+      <DependentUpon>frmSaxophoneDialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettingsDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettingsDialogue.Designer.cs">
+      <DependentUpon>frmSettingsDialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTypingGuradDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTypingGuradDialogue.Designer.cs">
+      <DependentUpon>frmTypingGuradDialogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guardian.cs" />
+    <Compile Include="HIGHSCORE TEST %28DELETE LATER%28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIGHSCORE TEST %28DELETE LATER%28.Designer.cs">
+      <DependentUpon>HIGHSCORE TEST %28DELETE LATER%28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroductionPanel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroductionPanel1.Designer.cs">
+      <DependentUpon>IntroductionPanel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroductionPanel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroductionPanel2.Designer.cs">
+      <DependentUpon>IntroductionPanel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroductionPanel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroductionPanel3.Designer.cs">
+      <DependentUpon>IntroductionPanel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroductionPanel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroductionPanel4.Designer.cs">
+      <DependentUpon>IntroductionPanel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntroductionPanel5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntroductionPanel5.Designer.cs">
+      <DependentUpon>IntroductionPanel5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainDashboard.Designer.cs">
+      <DependentUpon>mainDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiplierBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PictureEnemy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Player.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="playerState.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shoot.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="signupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signupForm.Designer.cs">
+      <DependentUpon>signupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoundCache.cs" />
+    <Compile Include="SpecialAttack.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TitleScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TitleScreen.Designer.cs">
+      <DependentUpon>TitleScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypingGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypingGame.Designer.cs">
+      <DependentUpon>TypingGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersDb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersDb.Designer.cs">
+      <DependentUpon>UsersDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WordGenerator.cs" />
+    <EmbeddedResource Include="CareerPlanGame.resx">
+      <DependentUpon>CareerPlanGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CareerPlanQuestions.resx">
+      <DependentUpon>CareerPlanQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CareerPlanResults.resx">
+      <DependentUpon>CareerPlanResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="caveMenu.resx">
+      <DependentUpon>caveMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete.resx">
+      <DependentUpon>delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBallDialogue.resx">
+      <DependentUpon>frmBallDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBassDialogue.resx">
+      <DependentUpon>frmBassDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCareerPlanningGuardDialogue.resx">
+      <DependentUpon>frmCareerPlanningGuardDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmControllerDialogue.resx">
+      <DependentUpon>frmControllerDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDoggoDialogue.resx">
+      <DependentUpon>frmDoggoDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGameOver.resx">
+      <DependentUpon>frmGameOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLeaderbords.resx">
+      <DependentUpon>frmLeaderbords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReturningFromCareerPlan.resx">
+      <DependentUpon>frmReturningFromCareerPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaxophoneDialogue.resx">
+      <DependentUpon>frmSaxophoneDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettingsDialogue.resx">
+      <DependentUpon>frmSettingsDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTypingGuradDialogue.resx">
+      <DependentUpon>frmTypingGuradDialogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIGHSCORE TEST %28DELETE LATER%28.resx">
+      <DependentUpon>HIGHSCORE TEST %28DELETE LATER%28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroductionPanel1.resx">
+      <DependentUpon>IntroductionPanel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroductionPanel2.resx">
+      <DependentUpon>IntroductionPanel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroductionPanel3.resx">
+      <DependentUpon>IntroductionPanel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroductionPanel4.resx">
+      <DependentUpon>IntroductionPanel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroductionPanel5.resx">
+      <DependentUpon>IntroductionPanel5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainDashboard.resx">
+      <DependentUpon>mainDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="signupForm.resx">
+      <DependentUpon>signupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TitleScreen.resx">
+      <DependentUpon>TitleScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypingGame.resx">
+      <DependentUpon>TypingGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersDb.resx">
+      <DependentUpon>UsersDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <Content Include="AfterIntroSound.wav" />
+    <Content Include="CareerPlanBgm.wav" />
+    <Content Include="gameOverBGM.wav" />
+    <Content Include="heartBreak.wav" />
+    <Content Include="PixelOperator-Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperator.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperator8-Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperator8.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorHB.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorHB8.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorHBSC.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorMono-Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorMono.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorMono8-Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorMono8.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorMonoHB.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorMonoHB8.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorSC-Bold.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PixelOperatorSC.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tralalelo tralala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bASSsound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="caveMenuSound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="introsound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Login sound.wav" />
+    <Content Include="loginbg.png" />
+    <Content Include="mainDashboard bgm - Home.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Register Sound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\frame.png" />
+    <None Include="Resources\border.png" />
+    <None Include="Resources\Cave.jpg" />
+    <None Include="Resources\BigRockExplosion.wav" />
+    <None Include="Resources\BGM.wav" />
+    <None Include="Resources\Debris2.png" />
+    <None Include="Resources\Boulder1.png" />
+    <None Include="Resources\gameOverBGM.wav" />
+    <Content Include="Resources\GasterBlasterGIF.gif" />
+    <Content Include="Resources\GDialogue.png" />
+    <None Include="Resources\heartBreak.wav" />
+    <Content Include="Resources\mainBackground.png" />
+    <None Include="Resources\RegularandSmallRockExplosion.wav" />
+    <None Include="Resources\MistypeSound.wav" />
+    <None Include="Resources\shoot.wav" />
+    <None Include="Resources\Peble1.png" />
+    <Content Include="Resources\Peble2.png" />
+    <None Include="Resources\Rock1.png" />
+    <None Include="Resources\Rock2.png" />
+    <None Include="Resources\Player.png" />
+    <Content Include="Resources\soul.png" />
+    <None Include="Resources\StalactiteSmall.png" />
+    <None Include="Resources\StalactiteBig.png" />
+    <None Include="Resources\Stone2.png" />
+    <Content Include="saxsound.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="signin.jpg" />
+    <Content Include="Title.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
