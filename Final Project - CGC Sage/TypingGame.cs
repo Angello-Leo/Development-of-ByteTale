@@ -347,7 +347,7 @@ namespace Final_Project___CGC_Sage
                 norm = normalEnemies;
                 norm2 = normalEnemies2;
                 elite = eliteEnemies;
-                elite = eliteEnemies2;
+                elite2 = eliteEnemies2;
                 spawnTimer.Start();
                 fallTimer.Start();
             };
@@ -504,7 +504,12 @@ namespace Final_Project___CGC_Sage
             gauge = 0;
             SpecialAttack specialAttack = new SpecialAttack(gamePanel, words, player, () =>
             {
-                if (gamePanel.Controls.OfType<CreateEnemy>().Count() == 0)
+                activeEnemy = null;
+                hasActiveEnemy = false;
+                userInput = "";
+
+                if (gamePanel.Controls.OfType<CreateEnemy>().Count() == 0 &&
+                norm == 0 && norm2 == 0 && elite == 0 && elite2 == 0)
                 {
                     fallTimer.Stop();
                     WaveClear();
