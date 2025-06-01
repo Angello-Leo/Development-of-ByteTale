@@ -54,6 +54,11 @@ namespace Final_Project___CGC_Sage
             signupSound = new SoundPlayer(@"C:\Users\gello\source\repos\Final Project - CGC Sage\Final Project - CGC Sage\Register Sound.wav");
             signupSound.Load();
             signupSound.PlayLooping();
+
+            textUsername.TabIndex = 0;
+            textPassword.TabIndex = 1;
+            textConfirmPassword.TabIndex = 2;
+            buttoncreateuser.TabIndex = 3;
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -209,7 +214,7 @@ namespace Final_Project___CGC_Sage
         {
 
         }
-
+        
         private void toolTip1_Popup(object sender, PopupEventArgs e)
         {
 

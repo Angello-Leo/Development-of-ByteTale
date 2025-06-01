@@ -43,7 +43,7 @@ namespace Final_Project___CGC_Sage
         // Wave Difficulty & Settings
         int normalEnemies = 2;
         int norm;
-        int normalEnemies2 = 4;
+        int normalEnemies2 = 2;
         int norm2;
         int eliteEnemies = 0;
         int elite;
@@ -310,30 +310,30 @@ namespace Final_Project___CGC_Sage
                 // Change Difficulty
                 if (waveNum == 1)
                 {
-                    normalEnemies = 5;
-                    normalEnemies2 = 5;
+                    normalEnemies += 1;
+                    normalEnemies2 += 1;
                 }
                 else if (waveNum == 2)
                 {
-                    normalEnemies = 7;
-                    normalEnemies2 = 8;
+                    normalEnemies += 2;
+                    normalEnemies2 += 2;
                 }
                 else if (waveNum == 3)
                 {
-                    normalEnemies = 10;
-                    normalEnemies2 = 10;
+                    normalEnemies = +2;
+                    normalEnemies2 += 2;
                 }
                 else if (waveNum == 4)
                 {
-                    normalEnemies = 7;
-                    eliteEnemies = 7;
-                    eliteEnemies2 = 3;
+                    normalEnemies = +3;
+                    eliteEnemies += 1;
+                    eliteEnemies2 += 1;
                 }
                 else if (waveNum == 5)
                 {
-                    normalEnemies = 5;
-                    eliteEnemies = 10;
-                    eliteEnemies2 = 5;
+                    normalEnemies =+ 2;
+                    eliteEnemies += 1;
+                    eliteEnemies2 += 1;
                 }
                 else
                 {
@@ -374,6 +374,10 @@ namespace Final_Project___CGC_Sage
                     activeEnemy.RemoveLetter();
                     activeEnemy.BringToFront();
                     activeEnemy.ForeColor = System.Drawing.Color.Red;
+
+                    activeEnemy.BringToFront();
+                    activeEnemy.AttachedPicture.BringToFront();
+
                     player.RotateTowards(activeEnemy.Location);
                     FireBullet();
                     multiplier += 0.1;
@@ -407,7 +411,10 @@ namespace Final_Project___CGC_Sage
                         hasActiveEnemy = true;
                         activeEnemy.RemoveLetter();
                         activeEnemy.ForeColor = System.Drawing.Color.Red;
+
                         activeEnemy.BringToFront();
+                        activeEnemy.AttachedPicture.BringToFront();
+
                         player.RotateTowards(activeEnemy.Location);
                         FireBullet();
                         PlayShootSound();

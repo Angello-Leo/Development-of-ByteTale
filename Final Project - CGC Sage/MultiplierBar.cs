@@ -37,7 +37,8 @@ namespace Final_Project___CGC_Sage
             this.BackColor = Color.Gold;
             this.Height = 10;
             this.Dock = DockStyle.Bottom;
-            this.Maximum = 60; // 60 if not debbuging
+            this.Maximum = 45
+                ; // 60 if not debbuging
             this.Value = 0;
             this.Style = ProgressBarStyle.Continuous;
             this.TabStop = false;
