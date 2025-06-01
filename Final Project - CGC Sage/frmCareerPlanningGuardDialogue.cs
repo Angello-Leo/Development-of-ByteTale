@@ -405,7 +405,7 @@ namespace Final_Project___CGC_Sage
             }
             else
             {
-                MessageBox.Show("You step back from the cave.");
+                MessageBox.Show("You took a step back...");
                 this.Close(); // Or transition to next scene
             }
 
