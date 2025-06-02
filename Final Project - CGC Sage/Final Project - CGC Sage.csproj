@@ -537,8 +537,8 @@
     <Content Include="Resources\GasterBlasterGIF.gif" />
     <Content Include="Resources\GDialogue.png" />
     <None Include="Resources\heartBreak.wav" />
-    <None Include="Resources\introsound.wav" />
     <None Include="Resources\Login sound.wav" />
+    <None Include="Resources\introsound.wav" />
     <Content Include="Resources\mainBackground.png" />
     <None Include="Resources\RegularandSmallRockExplosion.wav" />
     <None Include="Resources\MistypeSound.wav" />
