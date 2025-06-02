@@ -33,7 +33,7 @@ It aims to guide upcoming College of Computer Studies (CCS) students in choosing
    ```bash
    git clone https://github.com/Angello-Leo/Development-of-CGC-Sage.git
    cd Development-of-CGC-Sage
-5. After git lfs is installed, rub the command below:
+5. After git lfs is installed, go to the folder of the cloned repository. Right click then click on "Open Git Bash here"
    ```bash
    git lfs pull
 
