@@ -29,6 +29,8 @@ It aims to guide upcoming College of Computer Studies (CCS) students in choosing
 3. After installing Git LFS, open Command Prompt or PowerShell and run:
    ```bash
    git lfs install
-
-After git lfs is installed, rub the command below:
+5. Clone the repository of the game.
+5. After git lfs is installed, rub the command below:
+```bash
 git lfs pull
+
