@@ -36,10 +36,8 @@ namespace Final_Project___CGC_Sage
             {
                 try
                 {
-                    // Path to your WAV file
-                    player = new SoundPlayer(@"C:\\Users\\gello\\source\\repos\\Final Project - CGC Sage\\Final Project - CGC Sage\\introsound.wav");
-                    player.Load();  // Load the WAV file
-                    player.PlayLooping(); // Play the sound in a loop
+                    System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.introsound);
+                    sfx.PlayLooping();
                 }
                 catch (Exception ex)
                 {

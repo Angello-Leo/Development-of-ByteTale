@@ -167,9 +167,8 @@ namespace Final_Project___CGC_Sage
         {
             try
             {
-                // Load and play the .wav file
-                SoundPlayer player = new SoundPlayer(@"C:\\Users\\gello\\source\\repos\\Final Project - CGC Sage\\Final Project - CGC Sage\\bASSsound.wav");  // Replace with your file's path
-                player.PlaySync();  // Play the sound synchronously before starting the dialogue
+                System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.bASSsound);
+                sfx.PlaySync();
             }
             catch (Exception ex)
             {

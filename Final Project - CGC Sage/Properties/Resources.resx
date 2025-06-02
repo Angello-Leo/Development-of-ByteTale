@@ -208,4 +208,34 @@
   <data name="heartBreak" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\heartBreak.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="AfterIntroSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AfterIntroSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bASSsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bASSsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CareerPlanBgm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CareerPlanBgm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="caveMenuSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caveMenuSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="introsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\introsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Login_sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mainDashboard_bgm___Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mainDashboard bgm - Home.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Register_Sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Register Sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="saxsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saxsound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Title.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

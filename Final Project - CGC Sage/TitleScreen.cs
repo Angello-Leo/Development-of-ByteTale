@@ -59,9 +59,8 @@ namespace Final_Project___CGC_Sage
             try
             {
                 // Load and play sound
-                titleSound = new SoundPlayer(@"C:\Users\gello\source\repos\Final Project - CGC Sage\Final Project - CGC Sage\Title.wav"); // update this path
-                titleSound.Load();
-                titleSound.Play();
+                System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.Title);
+                sfx.Play();
 
                 // Set up a timer to show the text
                 textTimer = new Timer();

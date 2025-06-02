@@ -61,12 +61,30 @@ namespace Final_Project___CGC_Sage.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream AfterIntroSound {
+            get {
+                return ResourceManager.GetStream("AfterIntroSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap background_main {
             get {
                 object obj = ResourceManager.GetObject("background main", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream bASSsound {
+            get {
+                return ResourceManager.GetStream("bASSsound", resourceCulture);
             }
         }
         
@@ -109,12 +127,30 @@ namespace Final_Project___CGC_Sage.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream CareerPlanBgm {
+            get {
+                return ResourceManager.GetStream("CareerPlanBgm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Cave {
             get {
                 object obj = ResourceManager.GetObject("Cave", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream caveMenuSound {
+            get {
+                return ResourceManager.GetStream("caveMenuSound", resourceCulture);
             }
         }
         
@@ -229,6 +265,33 @@ namespace Final_Project___CGC_Sage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream introsound {
+            get {
+                return ResourceManager.GetStream("introsound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Login_sound {
+            get {
+                return ResourceManager.GetStream("Login_sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream mainDashboard_bgm___Home {
+            get {
+                return ResourceManager.GetStream("mainDashboard_bgm___Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream MistypeSound {
             get {
                 return ResourceManager.GetStream("MistypeSound", resourceCulture);
@@ -268,6 +331,15 @@ namespace Final_Project___CGC_Sage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Register_Sound {
+            get {
+                return ResourceManager.GetStream("Register_Sound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream RegularandSmallRockExplosion {
             get {
                 return ResourceManager.GetStream("RegularandSmallRockExplosion", resourceCulture);
@@ -291,6 +363,15 @@ namespace Final_Project___CGC_Sage.Properties {
             get {
                 object obj = ResourceManager.GetObject("Rock2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream saxsound {
+            get {
+                return ResourceManager.GetStream("saxsound", resourceCulture);
             }
         }
         
@@ -340,6 +421,15 @@ namespace Final_Project___CGC_Sage.Properties {
             get {
                 object obj = ResourceManager.GetObject("Stone2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Title {
+            get {
+                return ResourceManager.GetStream("Title", resourceCulture);
             }
         }
         

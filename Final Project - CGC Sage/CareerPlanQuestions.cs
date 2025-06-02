@@ -52,7 +52,7 @@ namespace Final_Project___CGC_Sage
         {
             try
             {
-                bgmPlayer = new SoundPlayer("C:\\Users\\gello\\Desktop\\test\\testingnungkayleo\\CareerPlanBgm.wav");
+                bgmPlayer = new System.Media.SoundPlayer(Properties.Resources.CareerPlanBgm);
                 bgmPlayer.Load();
                 bgmPlayer.PlayLooping();
             }

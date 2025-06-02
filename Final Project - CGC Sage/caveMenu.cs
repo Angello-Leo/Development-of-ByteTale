@@ -243,9 +243,8 @@ namespace Final_Project___CGC_Sage
             }
 
             // Load and play a different sound (change the path to your file)
-            caveSound = new SoundPlayer(@"C:\Users\gello\source\repos\Final Project - CGC Sage\Final Project - CGC Sage\caveMenuSound.wav");
-            caveSound.Load();
-            caveSound.PlayLooping();
+            System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.caveMenuSound);
+            sfx.PlayLooping();
 
             System.Drawing.Rectangle workingRectangle = Screen.PrimaryScreen.WorkingArea;
 

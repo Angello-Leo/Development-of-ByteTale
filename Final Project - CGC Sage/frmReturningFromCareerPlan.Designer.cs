@@ -135,6 +135,7 @@
             this.lblOption1.Size = new System.Drawing.Size(176, 21);
             this.lblOption1.TabIndex = 1;
             this.lblOption1.Text = "I am ready to enter";
+            this.lblOption1.Click += new System.EventHandler(this.lblOption1_Click);
             // 
             // typingTimerCareer
             // 

@@ -83,9 +83,9 @@ namespace Final_Project___CGC_Sage
                 // Play the sound
                 try
                 {
-                    using (SoundPlayer player = new SoundPlayer("C:\\Users\\gello\\Desktop\\test\\testingnungkayleo\\AfterIntroSound.wav")) // Replace with your .wav path
+                    using (System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.AfterIntroSound))
                     {
-                        player.PlaySync(); // PlaySync blocks until sound finishes
+                        sfx.PlaySync();
                     }
                 }
                 catch (Exception ex)

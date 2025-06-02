@@ -131,5 +131,10 @@ namespace Final_Project___CGC_Sage
         {
 
         }
+
+        private void lblOption1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

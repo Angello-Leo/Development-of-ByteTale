@@ -51,9 +51,8 @@ namespace Final_Project___CGC_Sage
             pictureBox1.BringToFront();
 
             // Load and play a different sound (change the path to your file)
-            signupSound = new SoundPlayer(@"C:\Users\gello\source\repos\Final Project - CGC Sage\Final Project - CGC Sage\Register Sound.wav");
-            signupSound.Load();
-            signupSound.PlayLooping();
+            System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.Register_Sound);
+            sfx.PlayLooping();
 
             textUsername.TabIndex = 0;
             textPassword.TabIndex = 1;

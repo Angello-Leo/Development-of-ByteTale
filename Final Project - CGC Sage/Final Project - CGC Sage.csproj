@@ -530,22 +530,32 @@
     <None Include="Resources\Debris2.png" />
     <None Include="Resources\Boulder1.png" />
     <None Include="Resources\gameOverBGM.wav" />
+    <None Include="Resources\AfterIntroSound.wav" />
+    <None Include="Resources\bASSsound.wav" />
+    <None Include="Resources\CareerPlanBgm.wav" />
+    <None Include="Resources\caveMenuSound.wav" />
     <Content Include="Resources\GasterBlasterGIF.gif" />
     <Content Include="Resources\GDialogue.png" />
     <None Include="Resources\heartBreak.wav" />
+    <None Include="Resources\introsound.wav" />
+    <None Include="Resources\Login sound.wav" />
     <Content Include="Resources\mainBackground.png" />
     <None Include="Resources\RegularandSmallRockExplosion.wav" />
     <None Include="Resources\MistypeSound.wav" />
     <None Include="Resources\shoot.wav" />
     <None Include="Resources\Peble1.png" />
+    <None Include="Resources\mainDashboard bgm - Home.wav" />
     <Content Include="Resources\Peble2.png" />
     <None Include="Resources\Rock1.png" />
     <None Include="Resources\Rock2.png" />
     <None Include="Resources\Player.png" />
+    <None Include="Resources\Register Sound.wav" />
+    <None Include="Resources\saxsound.wav" />
     <Content Include="Resources\soul.png" />
     <None Include="Resources\StalactiteSmall.png" />
     <None Include="Resources\StalactiteBig.png" />
     <None Include="Resources\Stone2.png" />
+    <None Include="Resources\Title.wav" />
     <Content Include="saxsound.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

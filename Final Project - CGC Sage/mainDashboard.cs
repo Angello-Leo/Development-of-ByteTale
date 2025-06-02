@@ -114,9 +114,8 @@ namespace Final_Project___CGC_Sage
             this.Location = new System.Drawing.Point(10, 10);
 
             // Load and play a different sound (change the path to your file)
-            homeSound = new SoundPlayer(@"C:\Users\gello\source\repos\Final Project - CGC Sage\Final Project - CGC Sage\mainDashboard bgm - Home.wav");
-            homeSound.Load();
-            homeSound.PlayLooping();
+            System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.mainDashboard_bgm___Home);
+            sfx.PlayLooping();
         }
 
         private void KeyIsDown(object sender, KeyEventArgs e)
@@ -154,7 +153,8 @@ namespace Final_Project___CGC_Sage
                 saxDlg.FormClosed += (s, args) =>
                 {
                     isInteracting = false;
-                    homeSound.PlayLooping();
+                    System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.mainDashboard_bgm___Home);
+                    sfx.PlayLooping();
                     this.Focus();
                 };
                 saxDlg.Show();
@@ -177,7 +177,8 @@ namespace Final_Project___CGC_Sage
                 bassDlg.FormClosed += (s, args) =>
                 {
                     isInteracting = false;
-                    homeSound.PlayLooping();
+                    System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.mainDashboard_bgm___Home);
+                    sfx.PlayLooping();
                     this.Focus();
                 };
                 bassDlg.Show();

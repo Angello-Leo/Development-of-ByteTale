@@ -140,11 +140,10 @@ namespace Final_Project___CGC_Sage
             Label_nouser.BackColor = Color.Transparent;
             Label_register.BackColor = Color.Transparent;
 
-      
+
             // Load and play a different sound (change the path to your file)
-            signupSound = new SoundPlayer(@"C:\Users\gello\source\repos\Final Project - CGC Sage\Final Project - CGC Sage\Login sound.wav");
-            signupSound.Load();
-            signupSound.PlayLooping();
+            System.Media.SoundPlayer sfx = new System.Media.SoundPlayer(Properties.Resources.Login_sound);
+            sfx.PlayLooping();
         }
 
         private void textUsername_KeyDown(object sender, KeyEventArgs e)
