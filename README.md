@@ -31,6 +31,6 @@ It aims to guide upcoming College of Computer Studies (CCS) students in choosing
    git lfs install
 4. Clone the repository of the game.
 5. After git lfs is installed, rub the command below:
-```bash
+   ```bash
    git lfs pull
 
