@@ -534,11 +534,13 @@
     <None Include="Resources\bASSsound.wav" />
     <None Include="Resources\CareerPlanBgm.wav" />
     <None Include="Resources\caveMenuSound.wav" />
+    <None Include="Resources\caveMenuBg.png" />
     <Content Include="Resources\GasterBlasterGIF.gif" />
     <Content Include="Resources\GDialogue.png" />
     <None Include="Resources\heartBreak.wav" />
     <None Include="Resources\Login sound.wav" />
     <None Include="Resources\introsound.wav" />
+    <None Include="Resources\loginbg.png" />
     <Content Include="Resources\mainBackground.png" />
     <None Include="Resources\RegularandSmallRockExplosion.wav" />
     <None Include="Resources\MistypeSound.wav" />
@@ -551,6 +553,7 @@
     <None Include="Resources\Player.png" />
     <None Include="Resources\Register Sound.wav" />
     <None Include="Resources\saxsound.wav" />
+    <None Include="Resources\signin.jpg" />
     <Content Include="Resources\soul.png" />
     <None Include="Resources\StalactiteSmall.png" />
     <None Include="Resources\StalactiteBig.png" />

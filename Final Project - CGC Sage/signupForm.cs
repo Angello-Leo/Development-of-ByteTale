@@ -35,7 +35,7 @@ namespace Final_Project___CGC_Sage
             toolTip1.SetToolTip(pictureBox2, "Show Password");
             toolTip1.SetToolTip(pictureBox1, "Hide Password");
             toolTip1.SetToolTip(labelloginhere, "Go to Login");
-            this.BackgroundImage = Image.FromFile(@"C:\Users\gello\source\repos\Final Project - CGC Sage\Final Project - CGC Sage\loginbg.png"); // put bg here
+            this.BackgroundImage = Properties.Resources.loginbg;
             this.BackgroundImageLayout = ImageLayout.Stretch;
             this.DoubleBuffered = true;
         }

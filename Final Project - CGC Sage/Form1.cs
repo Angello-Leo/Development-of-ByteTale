@@ -33,7 +33,7 @@ namespace Final_Project___CGC_Sage
 
         private void Setup()
         {
-            this.BackgroundImage = Image.FromFile(@"C:\Users\gello\source\repos\Final Project - CGC Sage\Final Project - CGC Sage\signin.jpg"); // put bg here
+            this.BackgroundImage = Properties.Resources.signin;
             this.BackgroundImageLayout = ImageLayout.Stretch;
             this.DoubleBuffered = true;
             toolTip1.SetToolTip(pictureBox2, "Show Password");
