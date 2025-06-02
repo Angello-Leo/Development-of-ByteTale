@@ -29,7 +29,7 @@ It aims to guide upcoming College of Computer Studies (CCS) students in choosing
 3. After installing Git LFS, open Command Prompt or PowerShell and run:
    ```bash
    git lfs install
-4. Clone the repository of the game.
+4. Clone the repository of the game, open Command Prompt or PowerShell and run:
    ```bash
    git clone https://github.com/Angello-Leo/Development-of-CGC-Sage.git
    cd Development-of-CGC-Sage
