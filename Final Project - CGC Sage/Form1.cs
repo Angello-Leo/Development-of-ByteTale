@@ -57,6 +57,7 @@ namespace Final_Project___CGC_Sage
             try
             {
                 string constring = Guardian.Decrypt(encconstring);
+                Console.WriteLine(constring);
                 using (MySqlConnection conn = new MySqlConnection(constring))
                 {
                     conn.Open();
