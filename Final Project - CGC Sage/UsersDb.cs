@@ -8,7 +8,7 @@ namespace Final_Project___CGC_Sage
 {
     public partial class UsersDb : Form
     {
-        string encconstring = "yONu9LKbdAh6y11QkhjHWg454/GtKyEL+80njGSLgV7kdSfxb0ubTtP2TSxI/r51BordTEAGk/dMIz+6bAHE40vptOn9vqcaVPF15lCNb2w="; // Encrypted COnstring
+        string encconstring = "yONu9LKbdAh6y11QkhjHWg454/GtKyEL+80njGSLgV7kdSfxb0ubTtP2TSxI/r51BordTEAGk/dMIz+6bAHE4+VpOPbRjs6gObrKznIJ9tRaT6hLcKS5V/NxH/DZ9Y3zqd1x2NF76q7oqJlGVmfC6ZHeJZt3qwdpbGodH4cii/s="; // Encrypted COnstring
         private string placeholderText = "Input new password here";
 
         public UsersDb()

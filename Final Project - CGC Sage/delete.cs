@@ -29,7 +29,7 @@ namespace Final_Project___CGC_Sage
         private void button1_Click(object sender, EventArgs e)
         {
             // Your original connection string
-            string plainConStr = "server=localhost;uid=root;pwd=I_F0rGoT-MyF#CK!nGP@sSW0Rd?!!?;database=sage.db;";
+            string plainConStr = "server=localhost;uid=root;pwd=I_F0rGoT-MyF#CK!nGP@sSW0Rd?!!?;database=sage.db;port=3306;AllowPublicKeyRetrieval=true;";
 
             // Encrypt the connection string using the Guardian class
             string encryptedConStr = Guardian.Encrypt(plainConStr);

@@ -16,7 +16,7 @@ namespace Final_Project___CGC_Sage
     {
         private ToolTip toolTip;
         private SoundPlayer signupSound;
-        string encconstring = "yONu9LKbdAh6y11QkhjHWg454/GtKyEL+80njGSLgV7kdSfxb0ubTtP2TSxI/r51BordTEAGk/dMIz+6bAHE40vptOn9vqcaVPF15lCNb2w=";
+        string encconstring = "yONu9LKbdAh6y11QkhjHWg454/GtKyEL+80njGSLgV7kdSfxb0ubTtP2TSxI/r51BordTEAGk/dMIz+6bAHE4+VpOPbRjs6gObrKznIJ9tRaT6hLcKS5V/NxH/DZ9Y3zqd1x2NF76q7oqJlGVmfC6ZHeJZt3qwdpbGodH4cii/s=";
         public signupForm()
         {
             this.WindowState = FormWindowState.Maximized;
